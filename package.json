@@ -1,0 +1,41 @@
+{
+  "name": "tinlion-vs-theme",
+  "displayName": "Tinlion Theme",
+  "description": "Tinlion Theme",
+  "version": "0.0.1",
+  "author": "kdankness (https://github.com/kammryndancy)",
+  "publisher": "kdankness",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "icon": "images/tinlion.png",
+  "galleryBanner": {
+    "color": "#051F20",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/kammryndancy/tinlion-vs-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kammryndancy/tinlion-vs-theme.git"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "vsce:login": "vsce login kdankness"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tinlion",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tinlion-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
