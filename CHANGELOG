@@ -1,0 +1,8 @@
+## 0.0.2
+
+- Updated project tooling and build pipeline.
+  - Added Changesets and related dependencies for release management.
+  - Added additional dev dependencies for working with colors and theme primitives.
+  - Updated npm scripts to package the extension and run `prepublishOnly` with a build step.
+- No visual theme color changes in this release.
+
