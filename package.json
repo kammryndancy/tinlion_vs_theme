@@ -13,10 +13,10 @@
     "color": "#051F20",
     "theme": "dark"
   },
-  "homepage": "https://github.com/kammryndancy/tinlion-vs-theme",
+  "homepage": "https://github.com/kammryndancy/tinlion_vs_theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kammryndancy/tinlion-vs-theme.git"
+    "url": "https://github.com/kammryndancy/tinlion_vs_theme.git"
   },
 	"devDependencies": {
 		"@changesets/changelog-github": "^0.4.1",
